@@ -1,0 +1,45 @@
+# Site settings
+title: Lorem Ipsum - Web Developer
+description: "A blog about lorem ipsum ..."
+baseurl: "" # for test: remove string '/space-jekyll-templa' to ''
+url: "http://victorvoid.github.io/space-jekyll-template/" # for test: remove string 'http://BetterLife.github.io' to '' but in production: 'https://yourusername.githu.io'
+# User settings
+username: Pigglet_title: Life Project for Teenagers - FrontEnd
+email: gerardoeconomico@gmail.com
+twitter_username: cerebrodecebo_username:  ThePope_username:  ThePope_username: ThePope
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+
+
+# html minify
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+
+# Links to include in menu navigation
+links:
+  - title: home
+    url: /
+  - title: my posts
+    url: /posts
+  - title: series
+    url: /series
+  - title: tags
+    url: /tags
+  - title: about me
+    url: /about
+# projects in header index
+projects:
+  - name: asciilang
+    url: https://github.com/ThePope/asciilang
+  - name: vim-frontend
+    url: https://github.com/ThePope/vim-frontend
+  - name: generator-capybara
+    url: https://github.com/ThePope/generator-capybara 
+# exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']
